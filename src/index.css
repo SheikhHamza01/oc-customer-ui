@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Blue Theme */
+:root {
+  --color-primary: #0ea5e9;
+  --color-primary-dark: #0284c7;
+  --color-primary-light: #38bdf8;
+  --color-secondary: #06b6d4;
+  --color-secondary-dark: #0891b2;
+  --color-secondary-light: #67e8f9;
+  --color-accent: #22c55e;
+  --color-accent-dark: #16a34a;
+  --color-accent-light: #4ade80;
+  --color-sidebar: #1e293b;
+  --color-sidebar-dark: #0f172a;
+  --color-sidebar-text: #ffffff;
+  --color-sidebar-text-muted: rgba(255, 255, 255, 0.6);
+  --color-background: #f1f5f9;
+  --color-header-bg: #ffffff;
+  --color-header-border: #e5e7eb;
+  --color-header-text: #4b5563;
+  --color-header-text-primary: #374151;
+  --color-header-hover: #f3f4f6;
+}
+
+/* Red/Crimson Theme */
+.theme-red {
+  --color-primary: #ef4444;
+  --color-primary-dark: #dc2626;
+  --color-primary-light: #f87171;
+  --color-secondary: #f97316;
+  --color-secondary-dark: #ea580c;
+  --color-secondary-light: #fb923c;
+  --color-accent: #10b981;
+  --color-accent-dark: #059669;
+  --color-accent-light: #34d399;
+  --color-sidebar: #7f1d1d;
+  --color-sidebar-dark: #691d1d;
+  --color-sidebar-text: #ffffff;
+  --color-sidebar-text-muted: rgba(255, 255, 255, 0.6);
+  --color-background: #fef2f2;
+  --color-header-bg: #ffffff;
+  --color-header-border: #fecaca;
+  --color-header-text: #7f1d1d;
+  --color-header-text-primary: #991b1b;
+  --color-header-hover: #fee2e2;
+}
+
+/* Pink/Rose Theme */
+.theme-pink {
+  --color-primary: #ec4899;
+  --color-primary-dark: #db2777;
+  --color-primary-light: #f472b6;
+  --color-secondary: #d946ef;
+  --color-secondary-dark: #c026d3;
+  --color-secondary-light: #e879f9;
+  --color-accent: #8b5cf6;
+  --color-accent-dark: #7c3aed;
+  --color-accent-light: #a78bfa;
+  --color-sidebar: #831843;
+  --color-sidebar-dark: #6b2142;
+  --color-sidebar-text: #ffffff;
+  --color-sidebar-text-muted: rgba(255, 255, 255, 0.6);
+  --color-background: #fdf2f8;
+  --color-header-bg: #ffffff;
+  --color-header-border: #fce7f3;
+  --color-header-text: #831843;
+  --color-header-text-primary: #9d174d;
+  --color-header-hover: #fdf2f8;
+}
+
+/* Dark Theme - Green Forest */
+.theme-dark {
+  --color-primary: #22c55e;           /* Forest Green */
+  --color-primary-dark: #16a34a;      /* Dark Forest Green */
+  --color-primary-light: #4ade80;     /* Light Forest Green */
+  --color-secondary: #eab308;         /* Golden Yellow */
+  --color-secondary-dark: #ca8a04;    /* Dark Golden */
+  --color-secondary-light: #facc15;   /* Light Golden */
+  --color-accent: #f97316;            /* Orange accent */
+  --color-accent-dark: #ea580c;       /* Dark Orange */
+  --color-accent-light: #fb923c;      /* Light Orange */
+  --color-sidebar: #052e16;           /* Very Dark Green */
+  --color-sidebar-dark: #022c22;      /* Even Darker Green */
+  --color-sidebar-text: #dcfce7;      /* Light Green Text */
+  --color-sidebar-text-muted: rgba(220, 252, 231, 0.6); /* Muted Light Green */
+  --color-background: #064e3b;        /* Dark Green Background */
+  --color-header-bg: #065f46;         /* Dark Green Header */
+  --color-header-border: #047857;     /* Green Border */
+  --color-header-text: #a7f3d0;       /* Light Green Text */
+  --color-header-text-primary: #dcfce7; /* Lighter Green Text */
+  --color-header-hover: #047857;      /* Green Hover */
+}
+
+/* Light Theme */
+.theme-light {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-light: #60a5fa;
+  --color-secondary: #06b6d4;
+  --color-secondary-dark: #0891b2;
+  --color-secondary-light: #67e8f9;
+  --color-accent: #059669;
+  --color-accent-dark: #047857;
+  --color-accent-light: #10b981;
+  --color-sidebar: #f8fafc;
+  --color-sidebar-dark: #e2e8f0;
+  --color-sidebar-text: #1e293b;
+  --color-sidebar-text-muted: rgba(30, 41, 59, 0.6);
+  --color-background: #ffffff;
+  --color-header-bg: #f8fafc;
+  --color-header-border: #e2e8f0;
+  --color-header-text: #64748b;
+  --color-header-text-primary: #334155;
+  --color-header-hover: #e2e8f0;
+}
+
+/* Yellow/Sunshine Theme */
+.theme-yellow {
+  --color-primary: #eab308;           /* Golden Yellow */
+  --color-primary-dark: #ca8a04;      /* Darker Golden */
+  --color-primary-light: #facc15;     /* Light Golden */
+  --color-secondary: #f59e0b;         /* Amber */
+  --color-secondary-dark: #d97706;    /* Dark Amber */
+  --color-secondary-light: #fbbf24;   /* Light Amber */
+  --color-accent: #f97316;            /* Orange accent */
+  --color-accent-dark: #ea580c;       /* Dark Orange */
+  --color-accent-light: #fb923c;      /* Light Orange */
+  --color-sidebar: #92400e;           /* Dark Yellow/Brown */
+  --color-sidebar-dark: #78350f;      /* Darker Brown */
+  --color-sidebar-text: #ffffff;      /* White text */
+  --color-sidebar-text-muted: rgba(255, 255, 255, 0.6); /* Muted white text */
+  --color-background: #fffbeb;        /* Very light yellow background */
+  --color-header-bg: #ffffff;         /* White header */
+  --color-header-border: #fed7aa;     /* Light orange border */
+  --color-header-text: #92400e;       /* Dark yellow text */
+  --color-header-text-primary: #78350f; /* Darker yellow text */
+  --color-header-hover: #fef3c7;      /* Light yellow hover */
+}
