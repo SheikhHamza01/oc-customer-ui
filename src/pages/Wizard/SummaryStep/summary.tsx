@@ -4,7 +4,7 @@ import { Button } from "../../../shared/components/ui/button"
 import { FaCheckCircle } from "react-icons/fa"
 import { useTheme } from "@/contexts/themeContext"
 import { FaRegPenToSquare } from "react-icons/fa6"
-import { Tooltip } from "../../../shared/components/ui/tooltip"
+import { Tooltip } from "../../../shared/components/ui/Tooltip"
 import { useNavigate } from "react-router-dom"
 
 interface SummaryProps {
